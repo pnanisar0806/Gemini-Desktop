@@ -4,8 +4,7 @@ A native desktop app for Google Gemini — bringing Gemini to your Windows taskb
 
 ## Download
 
-**[Download Gemini Desktop Setup (Windows)](https://github.com/pnanisar0806/Gemini-Desktop/releases/latest/download/Gemini-Desktop-Setup-1.0.0.exe
-)**
+**[Download Gemini Desktop Setup (Windows)](https://github.com/pnanisar0806/Gemini-Desktop/releases/latest/download/Gemini-Desktop-Setup-1.0.0.exe)**
 
 Or visit the [Releases](https://github.com/pnanisar0806/Gemini-Desktop/releases) page for all versions.
 
