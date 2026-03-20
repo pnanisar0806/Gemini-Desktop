@@ -38,5 +38,5 @@ protocols:
 
 publish:
   provider: github
-  owner: YOUR_GITHUB_USERNAME
+  owner: pnanisar0806
   repo: gemini-desktop
