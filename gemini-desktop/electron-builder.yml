@@ -1,0 +1,42 @@
+appId: com.gemini-desktop.app
+productName: Gemini Desktop
+copyright: Copyright 2026
+
+directories:
+  output: dist
+  buildResources: assets
+
+files:
+  - "out/**/*"
+  - "assets/**/*"
+  - "package.json"
+
+win:
+  icon: assets/icons/icon.ico
+  signAndEditExecutable: false
+  target:
+    - target: nsis
+      arch: [x64]
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Gemini Desktop
+  uninstallDisplayName: Gemini Desktop
+  installerIcon: assets/icons/icon.ico
+  uninstallerIcon: assets/icons/icon.ico
+  installerHeaderIcon: assets/icons/icon.ico
+
+protocols:
+  name: Gemini Desktop
+  schemes:
+    - gemini-desktop
+
+publish:
+  provider: github
+  owner: YOUR_GITHUB_USERNAME
+  repo: gemini-desktop

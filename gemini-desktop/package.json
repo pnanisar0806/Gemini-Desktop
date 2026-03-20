@@ -1,0 +1,25 @@
+{
+  "name": "gemini-desktop",
+  "version": "1.0.0",
+  "description": "A native desktop app for Google Gemini",
+  "main": "out/main/index.js",
+  "author": "Gemini Desktop",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron .",
+    "dev": "tsc && electron .",
+    "dist:win": "tsc && electron-builder --win",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "electron-log": "^5.2.0",
+    "electron-store": "^8.2.0",
+    "electron-updater": "^6.3.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "typescript": "^5.7.0"
+  }
+}
